@@ -27,8 +27,6 @@ public class ArraySum {
 
 FINDING MAXIMUM OF VALUE IN ARRAY
 -----------------------------------
-// Prompt user to populate array 
-System.out.println("Enter " + NUM_ELEMENTS + " integer values...";
 
 for (i = 0; i < userVals.length; ++i) {
    if (userVals[i] > maxVal) {
@@ -36,3 +34,5 @@ for (i = 0; i < userVals.length; ++i) {
 }
 }
 System..out.println("Max: " + maxVal);
+
+ACCESING OIUT OF RANGE ARRAY ELEMMENT 
