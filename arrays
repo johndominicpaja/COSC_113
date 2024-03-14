@@ -25,7 +25,7 @@ public class ArraySum {
       }
       System.out.println("Sum: " + sumVal);
 
-FINDING MAXIMUM OF VALUE IN ARRAY
+// FINDING MAXIMUM OF VALUE IN ARRAY //
 -----------------------------------
 
 for (i = 0; i < userVals.length; ++i) {
@@ -36,3 +36,39 @@ for (i = 0; i < userVals.length; ++i) {
 System..out.println("Max: " + maxVal);
 
 ACCESING OIUT OF RANGE ARRAY ELEMMENT 
+
+// SWAPPING VARIABLES //
+To swap two variable s, you need a TEMPORARY VARIABLE to briefly store a value. 
+
+int X = 33;
+int Y = 55; 
+int tempVal = 0;
+
+tempVal = X; ***
+X = Y;
+Y = tempVal; 
+
+// COPYING AN ARRAY //
+
+for (i = 0; i < userVals.length; ++i) {
+copiedVals[i] = userVals[i];
+}
+// REVERSING AN ARRAY //
+for (i = 0; i < userVals.length; ++i) {
+userVals[i] = userVals[userVals.length - 1 - i];
+
+
+TWO-DIMENSIONAL ARRAYS //
+
+int[][] myArray = new int[R][C]; 
+
+ENHANCED FOR LOOPS: ARRAYS //
+
+The enahnced for loop is a for loop that iterates through each elemnt in an array.
+
+String[] teamRoster = new String[3]; 
+
+   MORE EFFICIENT VERSTION FOR ENHANCED FOR LOOP
+      for (String playerName : teamRoster) {
+         System.out.println(playerName);
+
