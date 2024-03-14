@@ -1,0 +1,33 @@
+      BENEFITS (MORE EFFICIENT, LESS CLUTTER, MORE ORAGNIZED)
+
+\\ METHODS //
+
+Creating a grouping of predifined statemts for repeatedly used operations are called METHODS 
+
+METHOD DEFINITION - consists of the new method's name and a block of statements.
+  (public static double calcPizzaArea() { /* block of statements */ }
+
+METHOD CALL - an invocation of a method's name, causing the method's statements to execute 
+
+PARAMETER - method input specified in a method definition 
+
+ARGUMENT - value provided to a method's parameter during a method call 
+
+\\ MULTIPLE OR NO PARAMETERS //
+
+\\ PRINTING FROM A METHOD //
+
+VOID indicates a method does not return a value
+
+VOID METHOD - once a void method finishes execution, control returns back to the caller and no value is returned. 
+
+\\ REASONS FOR DEFINING METHODS // 
+- Improved readability 
+
+\\ MODULAR AND INCREMENTAL PROGRAM DEVELOPMENT //
+
+MODULAR DEVELOPMENT - process of dividing a program into separate modules that can be developed and tested separately and then integreated into a single program
+
+INCREMENTAL DEVELOPMENT - process inw hich a programmer writes, complies, and tests a small amount of code, then writes, complies, and tests a small amoutn more (an incremental amount), and so on. 
+
+
