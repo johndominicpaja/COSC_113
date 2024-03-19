@@ -1,0 +1,35 @@
+\\ DEFINING MAIN() IN A PROGRAMMER-DEFINED CLASS //
+
+public class BasicCar { 
+  private int milesDriven // Total miles driven by a car
+
+public BasicCar() { // Constructor assigns intial values to instance variables 
+  milesDriven = 0; 
+
+public void drive(int tripMiles) { 
+  milesDriven - milesDriven + tripMiles;
+
+public int checkOdometer() {
+  return milesDriven;
+}
+
+public static void main(String [] args) { // Main() creates objects of type BasicCar 
+  BasicCar redCorvette = new BasicCar(); // calls methods to operate on the objects 
+  BasicCar forMustang = new BasicCar();
+
+  redCorvette.drive(100);
+  fordMustang.drive(75);
+  forMustang.drive(300);
+  fordMustang.drive(50);
+
+UNIT TESTING (CLASSES) //
+
+TESTBENCHES **
+
+Unit testing - create and run a testbench for a speicifc item (or "unit") like a method or a class. 
+
+Regression testing means to reset an item like a class anytime that item is changed; if previously-passed test cases fail, the item has "regressed".
+
+
+
+
