@@ -30,6 +30,23 @@ Unit testing - create and run a testbench for a speicifc item (or "unit") like a
 
 Regression testing means to reset an item like a class anytime that item is changed; if previously-passed test cases fail, the item has "regressed".
 
+Constructor overloading //
+
+A class creator can overload a constructor by defining multiple constructors differing in paramter types 
+
+ex. public Restaurant() { // no-arg constructor 
+      name = "NoName";
+      rating = -1;
+}
+(Restaurant foodPlace = new Restaurant();
+
+     public Restaurant(String initName, int initRating) { // two-arg constructor  
+      name = initName;
+      rating = initRating;
+}
+(Restaurant coffeePlace = new Restaurant("Joe's", 5);
+
+
 
 
 
